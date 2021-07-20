@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Trump</string>
+    <string name="Hello">Hello Underworld</string>
+    <string name="kubaru">配る</string>
+    <string name="koukann">交換</string>
+    <string name="kakutei">確定</string>
+    <string name="role">？？？</string>
+    <string name="card1">card1</string>
+    <string name="card2">card2</string>
+    <string name="card3">card3</string>
+    <string name="card4">card4</string>
+    <string name="card5">card5</string>
+    <string name="result">判定...</string>
+</resources>

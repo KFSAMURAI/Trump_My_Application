@@ -1,0 +1,2 @@
+rootProject.name = "Trump My Application"
+include ':app'

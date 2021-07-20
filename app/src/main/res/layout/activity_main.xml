@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/card1"
+        android:layout_width="70dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/card1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/role"
+        app:srcCompat="@drawable/z01" />
+
+    <ImageView
+        android:id="@+id/cardMid5"
+        android:layout_width="70dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/card1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/z02" />
+
+    <ImageView
+        android:id="@+id/cardMid4"
+        android:layout_width="70dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/card1"
+        app:layout_constraintStart_toEndOf="@+id/cardMid5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/z02" />
+
+    <ImageView
+        android:id="@+id/cardMid3"
+        android:layout_width="70dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/card1"
+        app:layout_constraintStart_toEndOf="@+id/cardMid4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/z02" />
+
+    <ImageView
+        android:id="@+id/cardMid2"
+        android:layout_width="70dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/card1"
+        app:layout_constraintStart_toEndOf="@+id/cardMid3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/z02" />
+
+    <ImageView
+        android:id="@+id/cardMid1"
+        android:layout_width="70dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/card1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/z02" />
+
+    <ImageView
+        android:id="@+id/card2"
+        android:layout_width="70dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/card2"
+        app:layout_constraintStart_toEndOf="@+id/card1"
+        app:layout_constraintTop_toBottomOf="@+id/role"
+        app:srcCompat="@drawable/z01" />
+
+    <ImageView
+        android:id="@+id/card3"
+        android:layout_width="70dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/card3"
+        app:layout_constraintStart_toEndOf="@+id/card2"
+        app:layout_constraintTop_toBottomOf="@+id/role"
+        app:srcCompat="@drawable/z01" />
+
+    <ImageView
+        android:id="@+id/card4"
+        android:layout_width="70dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/card4"
+        app:layout_constraintStart_toEndOf="@+id/card3"
+        app:layout_constraintTop_toBottomOf="@+id/role"
+        app:srcCompat="@drawable/z01" />
+
+    <ImageView
+        android:id="@+id/card5"
+        android:layout_width="70dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/card4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/role"
+        app:srcCompat="@drawable/z01" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card1" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox1"
+        app:layout_constraintTop_toBottomOf="@+id/card2" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/card3" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox3"
+        app:layout_constraintTop_toBottomOf="@+id/card4" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox4"
+        app:layout_constraintTop_toBottomOf="@+id/card4" />
+
+    <Button
+        android:id="@+id/kubaru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/kubaru"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1" />
+
+    <Button
+        android:id="@+id/kakutei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/kakutei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+    <Button
+        android:id="@+id/koukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/koukann"
+        app:layout_constraintStart_toEndOf="@+id/kubaru"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <TextView
+        android:id="@+id/role"
+        android:layout_width="340dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="350dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/roleMid"
+        android:layout_width="340dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF5E5E"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardMid5" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="72dp"
+        android:text="@string/result"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#00C4FF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roleMid" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
