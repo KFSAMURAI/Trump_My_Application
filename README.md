@@ -1,6 +1,6 @@
-# Trump_My_Application
+# Trump My Application（トランプ系ゲーム）
 
 
 For Android App
 
-トランプゲームのシンプルなバージョン
+ポーカーゲームのシンプルなバージョン
