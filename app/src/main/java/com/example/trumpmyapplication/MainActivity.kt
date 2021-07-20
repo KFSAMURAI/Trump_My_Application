@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater);
         val view = binding.root;
         setContentView(view);
-        binding.role.text = "トランプ";
-        binding.roleMid.text = "トランプ";
+        binding.role.text = "ポーカー";
+        binding.roleMid.text = "ポーカー";
 
         binding.koukan.isEnabled = false;
         binding.kakutei.isEnabled = false;
